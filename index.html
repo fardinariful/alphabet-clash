@@ -26,15 +26,20 @@
     </section>
 
     <!-- play ground start -->
-    <section class="play-ground">
-
+    <section class="play-ground hidden">
+            <div class="flex flex-col items-center pt-20">
         <!-- screen -->
 
-        <div class="artboard artboard-horizontal phone-6 border-[15px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">
-            1024×320
+        <div class="artboard artboard-horizontal phone-6 border-[20px] rounded-2xl border-[#010313CC] bg-[#FFFFFFB3]">
+            <div class="flex justify-center">
+                <p class="text-white bg-[#2F2941] px-7 py-4  rounded-b-xl">Don't watch keyboard  while playing...</p>
+            </div>
+            <div class="flex justify-center items-center h-full">
+            <p class="font-semibold text-[#010313] text-9xl">Y</p>
         </div>
-         <!-- keyboard -->
-         <div>
+        </div>
+         <!-- keyboard start-->
+         <div class="mt-16">
             <div class="flex justify-center gap-1 my-1 w-full">
                 <kbd class="kbd">q</kbd>
                 <kbd class="kbd">w</kbd>
@@ -69,12 +74,33 @@
                 <kbd class="kbd">/</kbd>
               </div>
          </div>
-         <!-- life score -->
+         <!-- keyboard end -->
+         <!-- life score start -->
+            
+         <div class="mt-20 flex flex-row justify-between w-3/4">
+            <button class="btn  btn-active rounded-3xl bg-[#894189] border-none">
+                <div>
+               <p class="text-[#FFF] font-medium">Life</p> 
+                </div>
+                <img src="./images/heart.svg" alt="">
+               <span class="text-white">1</span>
+              </button>
+              <button class="btn bg-[#360490] border-none">
+               <p class="font-medium text-[#FFF]">score</p> 
+                <img src="./images/dollar.svg" alt="">
+                <span class="text-white">1</span>
+              </button>
+              
+         </div>
+         <!-- life score end -->
+        </div>
     </section>
        
     <!-- play ground end -->
     <section class="score">
-
+        <div>
+            
+        </div>
     </section>
 </main>
 </body>
