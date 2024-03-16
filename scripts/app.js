@@ -9,6 +9,11 @@
 // }
 function continuegame(){
      const alphabet=randomalphabet();
+
+     const currentalphabetelement=document.getElementById('currnet_alphabet');
+     currentalphabetelement.innerText=alphabet;
+
+     addbgcolorbyid(alphabet);
 }
 
 function play(){
